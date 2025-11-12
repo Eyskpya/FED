@@ -31,7 +31,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Je website
-https://www.nekoatsume.com/en/
+https://www.pokemon.com/uk/pokedex/beldum
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
@@ -39,12 +39,13 @@ https://www.nekoatsume.com/en/
   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/nekoatsume.png" width="375px" alt="Eerste/home pagina van de website met content en animaties">
+  Pokemon home  
+  <img src="readme-images/Pokemon.png" width="375px" alt="Eerste/home pagina van de website met content en animaties">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/nekoatsume2.png" width="375px" alt="Tweede pagina met informatie en plaatjes">
+  <img src="readme-images/Pokemon2.png" width="375px" alt="Tweede pagina met informatie en plaatjes">
+  <img src="readme-images/Pokemon3.png" width="375px" alt="Derde pagina met informatie en plaatjes">
  
 </details>
 
