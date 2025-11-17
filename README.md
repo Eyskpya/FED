@@ -55,7 +55,7 @@ https://www.pokemon.com/uk/pokedex/beldum
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-<img src="readme-images/toegangklijkheidstest1.png" width="375px" alt="foto's van de ingevulde toeganklijkheidstest.">
+<img src="readme-images/Toegangklijkheidstest1.jpg" width="375px" alt="foto's van de ingevulde toeganklijkheidstest.">
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   Ik bevond dat mijn site best wel toeganklijk is maar natuurlijk kan dit altijd nog beter en dat ga ik zeker verbeteren zodat het toeganklijker wordt voor iedereen. ik ga dit doen door beter gebruik nte maken van kleurcontrast zodat de teksten duidelijker zichtbaar worden, ook ga ik duidelijkere titels maken zodat het duidelijker is naar wat je aan het kijken bent en als laatst wat grotere duidelijkere teksten maken.
