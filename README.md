@@ -40,12 +40,12 @@ https://www.pokemon.com/uk/pokedex/beldum
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Pokemon home  
-  <img src="readme-images/Pokemon.png" width="375px" alt="Eerste/home pagina van de website met content en animaties">
+  <img src="readme-images/Pokemon.png" width="375px" alt="Eerste/home pagina van de pokemon website waar je alle tekst en content op kan zien.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/Pokemon2.png" width="375px" alt="Tweede pagina met informatie en plaatjes">
-  <img src="readme-images/Pokemon3.png" width="375px" alt="Derde pagina met informatie en plaatjes">
+  <img src="readme-images/Pokemon2.png" width="375px" alt="Tweede pagina van de pokemon website waar je alle tekst en content op kan zien.">
+  <img src="readme-images/Pokemon3.png" width="375px" alt="Derde pagina van de pokemon website waar je alle tekst en content op kan zien.">
  
 </details>
 
@@ -55,9 +55,10 @@ https://www.pokemon.com/uk/pokedex/beldum
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
+<img src="readme-images/toegangklijkheidstest1.png" width="375px" alt="foto's van de ingevulde toeganklijkheidstest.">
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik bevond dat mijn site best wel toeganklijk is maar natuurlijk kan dit altijd nog beter en dat ga ik zeker verbeteren zodat het toeganklijker wordt voor iedereen. ik ga dit doen door beter gebruik nte maken van kleurcontrast zodat de teksten duidelijker zichtbaar worden, ook ga ik duidelijkere titels maken zodat het duidelijker is naar wat je aan het kijken bent en als laatst wat grotere duidelijkere teksten maken.
 
 </details>
 
@@ -69,13 +70,14 @@ https://www.pokemon.com/uk/pokedex/beldum
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown1.jpg" width="375px" alt="breakdown van de hele pagina 1">
+  <img src="readme-images/breakdown2.jpg" width="375px" alt="breakdown van de hele pagina 2">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### hele pagina breakdown met basis HTML: 
+  <img src="readme-images/breakdown3.jpg" width="375px" alt="hele pagina breakdown met basis HTML, pagina 1">
+  <img src="readme-images/breakdown4.jpg" width="375px" alt="hele pagina breakdown met basis HTML, pagina 2">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
