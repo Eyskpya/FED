@@ -92,7 +92,7 @@ https://www.pokemon.com/uk/pokedex/beldum
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Uitleg begrijpen en toepassen gin wel goed, maar moet weer even de basis opfrissen zodat ik eind deze week kan beginnen met coderen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
