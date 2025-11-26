@@ -6,17 +6,13 @@
 }
 
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#cce5ea;
 }
 
 
@@ -27,5 +23,211 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
 
+
+/* Hamburger / responsive nav */
+.menu-toggle {
+	background: transparent;
+	border: none;
+	width: 44px;
+	height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.menu-toggle:focus { outline: 3px solid rgba(0,0,0,0.15); }
+.hamburger {
+	display: block;
+	width: 24px;
+	height: 2px;
+	background: var(--color-text);
+	position: relative;
+}
+.hamburger::before, .hamburger::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 24px;
+	height: 2px;
+	background: var(--color-text);
+	transition: transform .25s ease, opacity .2s ease;
+}
+.hamburger::before { top: -8px; }
+.hamburger::after { bottom: -8px; }
+.menu-toggle[aria-expanded="true"] .hamburger { background: transparent; }
+.menu-toggle[aria-expanded="true"] .hamburger::before { transform: translateY(8px) rotate(45deg); }
+.menu-toggle[aria-expanded="true"] .hamburger::after { transform: translateY(-8px) rotate(-45deg); }
+
+.closed {
+	display: none;
+}
+
+header nav {
+	display: flex;
+	gap: 1rem;
+}
+
+/* Font size control buttons */
+.font-size-control {
+	display: flex;
+	gap: 0.4rem;
+	margin-left: auto;
+}
+
+.font-size-control button {
+	background: transparent;
+	border: 1px solid var(--color-text);
+	padding: 0.3rem 0.7rem;
+	cursor: pointer;
+	font-size: 0.85rem;
+	border-radius: 3px;
+	transition: background 0.2s;
+}
+
+.font-size-control button:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+	.primary-nav {
+		display: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		background: var(--color-background);
+		width: 220px;
+		box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+		border-radius: 6px;
+		padding: 0.5rem 0;
+	}
+	.primary-nav.open { display: block; }
+	.primary-nav ul { list-style: none; margin: 0; padding: 0; }
+	.primary-nav li { margin: 0; }
+	.primary-nav a { display: block; padding: 0.6rem 1rem; color: var(--color-text); text-decoration: none; }
+	.primary-nav a:hover, .primary-nav a:focus { background: rgba(0,0,0,0.04); }
+}
+
+/* Simple, self-contained carousel for pokemon.html */
+.poke-carousel {
+	max-width: 720px;
+	margin: 1.2rem auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	background: #fff;
+}
+.poke-slides { position: relative; height: 360px; }
+.poke-slide {
+	position: absolute;
+	inset: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	background: #fff;
+	opacity: 0;
+	transition: opacity 400ms ease-in-out;
+}
+.poke-slide[style], .poke-slide.active { opacity: 1; }
+.poke-prev, .poke-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0,0,0,0.4);
+	border: none;
+	color: white;
+	font-size: 1.6rem;
+	padding: 0.4rem 0.7rem;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.poke-prev { left: 8px; }
+.poke-next { right: 8px; }
+.poke-dots {
+	text-align: center;
+	padding: 0.6rem 0;
+	background: rgba(255,255,255,0.85);
+}
+.poke-dots button {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: none;
+	margin: 0 6px;
+	background: #ccc;
+	cursor: pointer;
+}
+.poke-dots button.active { background: #333; }
+
+@media (max-width: 480px) {
+	.poke-slides { height: 220px; }
+}
+
+/* First Section */
+
+section:first-of-type ul {
+	list-style: none;
+}
+
+section:first-of-type ul li:first-of-type  {
+	background-color: pink;
+	padding: 1em;
+	border-radius: 1em;
+	transition: .2s;
+}
+
+section:first-of-type ul li:first-of-type:hover {
+	background-color: rgb(224, 168, 177);
+	transform: translate(0, -0.2em);
+	cursor: pointer;
+}
+
+/* Stats */
+
+.stats {
+	background-color: grey;
+	border-radius: 1em;
+}
+
+.stats > ul {
+	display: flex;
+	
+}
+
+.stats > ul > li {
+	list-style: none;
+}
+
+.stats ul li ul {
+	padding: 0;
+}
+
+.stats ul li ul li {
+	background-color: #fff;
+	width: 80px;
+	height: 10px;
+	margin: 5px;
+	list-style: none;
+}
+
+.blue{
+	background-color: blue;
+}
+
+/* Evolutions section */
+
+section:nth-of-type(6) {
+	background-color: grey;
+}
+
+section:nth-of-type(6) img {
+	cursor: pointer;
+	transition: .2s;
+	border: 1em solid #fff;
+	border-radius: 50em;
+	background-color: darkgrey;
+}
+
+section:nth-of-type(6) img:hover {
+	scale: 1.1;
+}

@@ -1,22 +1,92 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2526</title>
-
-	<link href="styles/style.css" rel="stylesheet">
-
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-</head>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon Mobile</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
 <body>
-	<h1>Howdy FED2526</h1>
-
-	<script defer src="scripts/script.js"></script>
+  <header>
+    <h1><img src="images/pokemon.png" alt="pokemon"></h1>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="hamburger" aria-hidden="true"></span>
+    </button>
+    <nav class="closed">
+      <ul>
+        <li><a href="#">Pokémon</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <div class="font-size-control">
+        <button id="fontDecrease" title="Decrease font size">Tt−</button>
+        <button id="fontReset" title="Reset font size">Tt</button>
+        <button id="fontIncrease" title="Increase font size">Tt+</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <ul>
+        <li>
+          <img src="images/pokemoninter.png" alt="Pokemon international Championships" style="width:100%;">
+          <h2>LIVE: 2026 Latin America International Championships</h2>
+          <p>Tune in to LAIC now to watch Trainers battle it out in the Pokémon Trading Card Game.</p>
+        </li>
+        <li>
+          <img src="images/s3.jpg" alt="">
+          <h3>Become a Legend with a New Ranked Battles Season</h3>
+          <p>Earn Chesnaughtite and other useful rewards while honing your battle skills in Pokémon Legends: Z-A Ranked Battles Season 3.</p>
+        </li>
+        <li>
+          <img src="images/battle.jpg" alt="">
+          <h3>Soar into Battle with Mega Pidgeot ex in Pokémon TCG Pocket</h3>
+          <p>Win solo battles to earn special promo cards with new artwork, including a Mega Pidgeot ex promo card.</p>
+        </li>
+        <li>
+          <img src="images/vapereon.jpg" alt="">
+          <h3>Vaporeon Turns the Tide of Battle in Pokémon UNITE</h3>
+          <p>The Bubble Jet Pokémon dives in to control the currents as a Ranged Defender.</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <video width="640" height="480" controls>
+        <source src="video/4800-180289993_small.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section class="poke-carousel" aria-label="Pokémon carousel">
+      <h2>Explore more pokemon</h2>
+      <div class="poke-slides">
+        <img class="poke-slide" src="images/jigglypuff.PNG" alt="Jigglypuff">
+        <img class="poke-slide" src="images/eevee.PNG" alt="Eevee">
+        <img class="poke-slide" src="images/lucario.PNG" alt="Lucario">
+        <img class="poke-slide" src="images/mimikyu.PNG" alt="Mimikyu">
+      </div>
+      <button class="poke-prev" aria-label="Previous slide">‹</button>
+      <button class="poke-next" aria-label="Next slide">›</button>
+      <div class="poke-dots" aria-hidden="false"></div>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <a>Bongo Ltd. Partner Companies</a>
+      <a>Careers @ Bongo Ltd.</a>
+    </nav>
+    <h3>Copyright 2021, Bongo Ltd.</h3>
+    <form>
+					<label for="firstName">First Name</label>
+					<input required id="firstName" type="text">
+					<label for="lastName">Last Name</label>
+					<input required id="lastName" type="text">
+					<label for="mail">E-Mail</label>
+					<input required id="mail" type="email">
+					<input type="submit">
+				</form>
+  </footer>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/font-size.js"></script>
+  <script src="scripts/pokemon-carousel.js"></script>
 </body>
-	
 </html>

@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ik denk dat ik val onder de categorie: Blauwe piste
 
   #### Je focus:
-  Weet ik niet ik, maar denk dan misschien responsive
+  Weet ik niet ik, maar denk dan misschien surgace plane
  
 </details>
 
@@ -40,11 +40,11 @@ https://www.pokemon.com/uk/pokedex/beldum
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Pokemon home  
-  <img src="readme-images/Pokemon.png" width="375px" alt="Eerste/home pagina van de pokemon website waar je alle tekst en content op kan zien.">
+  <img src="readme-images/website.jpg" width="375px" alt="Eerste/home pagina van de pokemon website waar je alle tekst en content op kan zien.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/Pokemon2.png" width="375px" alt="Tweede pagina van de pokemon website waar je alle tekst en content op kan zien.">
+  <img src="readme-images/website.jpg" width="375px" alt="Tweede pagina van de pokemon website waar je alle tekst en content op kan zien.">
   <img src="readme-images/Pokemon3.png" width="375px" alt="Derde pagina van de pokemon website waar je alle tekst en content op kan zien.">
  
 </details>
@@ -70,12 +70,10 @@ https://www.pokemon.com/uk/pokedex/beldum
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown1.jpg" width="375px" alt="breakdown van de hele pagina 1">
-  <img src="readme-images/breakdown2.jpg" width="375px" alt="breakdown van de hele pagina 2">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### hele pagina breakdown met basis HTML: 
-  <img src="readme-images/breakdown3.jpg" width="375px" alt="hele pagina breakdown met basis HTML, pagina 1">
-  <img src="readme-images/breakdown4.jpg" width="375px" alt="hele pagina breakdown met basis HTML, pagina 2">
+  <img src="readme-images/breakdown2.jpg" width="375px" alt="hele pagina breakdown met basis HTML">
 
 
 
@@ -95,22 +93,17 @@ https://www.pokemon.com/uk/pokedex/beldum
   Uitleg begrijpen en toepassen gin wel goed, maar moet weer even de basis opfrissen zodat ik eind deze week kan beginnen met coderen.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  samen met je groepje opstellen 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | student 1                                     | student 2                                   | student 3                     | student 4        |
+  | Website bekijken en feedback ontvangen.       |  Hulp vragen met stukje code.               | Beginnen met coderen.         | Website bekijken en feedback ontvangen.              |
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Begin met coderen aankomende week
+  - Probeer ook wat css te coderen
 
 </details>
 
