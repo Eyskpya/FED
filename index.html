@@ -8,13 +8,14 @@
   </head>
 <body>
   <header>
-    <h1><img src="images/pokemon.png" alt="pokemon"></h1>
+    <h1 hidden>Pokemon</h1>
+    <img src="images/pokemon.png" alt="pokemon logo">
     <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
       <span class="hamburger" aria-hidden="true"></span>
     </button>
     <nav class="closed">
       <ul>
-        <li><a href="#">Pokémon</a></li>
+        <li><a href="pokemon.html">Pokémon</a></li>
         <li><a href="#">Shop</a></li>
         <li><a href="#">About Us</a></li>
       </ul>
@@ -26,6 +27,8 @@
     </nav>
   </header>
   <main>
+
+    <!-- News Section -->
     <section>
       <ul>
         <li>
@@ -33,48 +36,46 @@
           <h2>LIVE: 2026 Latin America International Championships</h2>
           <p>Tune in to LAIC now to watch Trainers battle it out in the Pokémon Trading Card Game.</p>
         </li>
-        <li>
-          <img src="images/s3.jpg" alt="">
+        <li class="s3">
+          <img src="images/s3.jpg" alt="New Ranked Battles Season image">
           <h3>Become a Legend with a New Ranked Battles Season</h3>
           <p>Earn Chesnaughtite and other useful rewards while honing your battle skills in Pokémon Legends: Z-A Ranked Battles Season 3.</p>
         </li>
-        <li>
-          <img src="images/battle.jpg" alt="">
+        <li class="battle">
+          <img src="images/battle.jpg" alt="Soar into Battle with Mega Pidgeot image">
           <h3>Soar into Battle with Mega Pidgeot ex in Pokémon TCG Pocket</h3>
           <p>Win solo battles to earn special promo cards with new artwork, including a Mega Pidgeot ex promo card.</p>
         </li>
-        <li>
-          <img src="images/vapereon.jpg" alt="">
+        <li class="vapereon">
+          <img src="images/vapereon.jpg" alt="Vapereon tide battle image">
           <h3>Vaporeon Turns the Tide of Battle in Pokémon UNITE</h3>
           <p>The Bubble Jet Pokémon dives in to control the currents as a Ranged Defender.</p>
         </li>
       </ul>
     </section>
+
+
     <section>
+      <h2 hidden>Draaiende pokeball video</h2>
       <video width="640" height="480" controls>
-        <source src="video/4800-180289993_small.mp4" type="video/mp4">
+        <source src="video/pokebal.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-    </section>
-    <section class="poke-carousel" aria-label="Pokémon carousel">
-      <h2>Explore more pokemon</h2>
-      <div class="poke-slides">
-        <img class="poke-slide" src="images/jigglypuff.PNG" alt="Jigglypuff">
-        <img class="poke-slide" src="images/eevee.PNG" alt="Eevee">
-        <img class="poke-slide" src="images/lucario.PNG" alt="Lucario">
-        <img class="poke-slide" src="images/mimikyu.PNG" alt="Mimikyu">
+   </section>
+    <section>
+      <h2 class="fonth2">Explore more pokemon</h2>
+      <div class="imagecarousel">
+        <img src="images/jigglypuff.JPEG" alt="Jigglypuff"/> 
+        <img src="images/evee.JPEG" alt="Eevee"/>
+        <img src="images/lucario.JPEG" alt="Lucario"/>
+        <img src="images/mimikyu.JPEG" alt="Mimikyu"/>
       </div>
-      <button class="poke-prev" aria-label="Previous slide">‹</button>
-      <button class="poke-next" aria-label="Next slide">›</button>
-      <div class="poke-dots" aria-hidden="false"></div>
     </section>
+
+
   </main>
   <footer>
-    <nav>
-      <a>Bongo Ltd. Partner Companies</a>
-      <a>Careers @ Bongo Ltd.</a>
-    </nav>
-    <h3>Copyright 2021, Bongo Ltd.</h3>
+    <h2>Sign up for pokemon e-mails!</h2>
     <form>
 					<label for="firstName">First Name</label>
 					<input required id="firstName" type="text">
@@ -83,10 +84,18 @@
 					<label for="mail">E-Mail</label>
 					<input required id="mail" type="email">
 					<input type="submit">
-				</form>
+		</form>
+    <div class="apps">
+    <ul>
+      <li>News</li>
+      <li>Parents Guide</li>
+      <li>Customer Service</li>
+    </ul>
+    <img src="images/apps.PNG" alt="Instagram, Facebook en Youtube logos">
+    </div>
+    <h3>Copyright 2025, Eysan Ltd.</h3>
   </footer>
   <script src="scripts/script.js"></script>
   <script src="scripts/font-size.js"></script>
-  <script src="scripts/pokemon-carousel.js"></script>
 </body>
 </html>

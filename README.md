@@ -55,10 +55,10 @@ https://www.pokemon.com/uk/pokedex/beldum
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-<img src="readme-images/Toegangklijkheidstest1.jpg" width="375px" alt="foto's van de ingevulde toeganklijkheidstest.">
+<img src="readme-images/test2.jpeg" width="375px" alt="foto's van de ingevulde toeganklijkheidstest van de originele website">
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  Ik bevond dat mijn site best wel toeganklijk is maar natuurlijk kan dit altijd nog beter en dat ga ik zeker verbeteren zodat het toeganklijker wordt voor iedereen. ik ga dit doen door beter gebruik nte maken van kleurcontrast zodat de teksten duidelijker zichtbaar worden, ook ga ik duidelijkere titels maken zodat het duidelijker is naar wat je aan het kijken bent en als laatst wat grotere duidelijkere teksten maken.
+  Ik bevond dat mijn site best wel toeganklijk is maar natuurlijk kan dit altijd nog beter en dat ga ik zeker verbeteren zodat het toeganklijker wordt voor iedereen. ik ga dit doen door beter gebruik te maken van kleurcontrast zodat de teksten duidelijker zichtbaar worden, ook ga ik duidelijkere titels maken zodat het duidelijker is naar wat je aan het kijken bent en als laatst wat grotere duidelijkere teksten maken. Ook merkte ik uit de screenreader test dat het voorlezen van mijn gekozen site niet toeganklijk is de images hebben geen alt tekst dus er is geen info over de afbeelding die op de pagina staat, ik ga dit wel verbeteren op mijn versie.
 
 </details>
 
@@ -117,7 +117,7 @@ https://www.pokemon.com/uk/pokedex/beldum
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Werken met ul li was een beetje lastig in css omdat ik steeds vergat welke ik moest aanspreken voor bepaalde vormgeving. Ook moest ik weer inkomen met css coderen in het geheel.
 
 
   ### Agenda voor meeting
@@ -125,18 +125,13 @@ https://www.pokemon.com/uk/pokedex/beldum
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Hebben we niet besproken          
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Schrijf wat meer over de screenreader in je bevindingen
+  - Begin aan de css
 
 </details>
 
@@ -148,9 +143,10 @@ https://www.pokemon.com/uk/pokedex/beldum
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/test2.jpeg" width="375px" alt="Toeganklijkheidstest 2 van mijn eigen website">
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Mijn website is best wel toeganklijk alleen heb ik bij sommige nee omdat ik ze niet heb gebruikt waardoor ik het ook niet kon toepassen of niet nodig was. Uit de screenreader test van mij zie ik dat alle afbeeldingen een goeie alt tag hebben en alles goed voorgelezen wordt. ik heb het hierdoor zelfs wat toeganklijker gemaakt dan de originele website.
 
 </details>
 
